@@ -6,7 +6,7 @@
 
 @font-face {
   src: url(../fonts/Lato-Regular.ttf);
-  font-family: "Lato";
+  font-family: Lato;
 }
 body {
   font-family: "lato";
@@ -44,8 +44,31 @@ nav {
 .hero-img {
   width: 100vw;
 }
-/* Section 1 */
+/* Section about*/
+.intro {
+  margin-top: 4.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 3rem;
+}
+h2 {
+  margin-bottom: 2rem;
+}
+
+.logo-about {
+  padding: 4rem;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  line-height: 1.2rem;
+}
 /* Section 2 */
+.evolution {
+}
 /* Section 3 */
 
 /* Footer */
