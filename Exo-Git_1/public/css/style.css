@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  src: url(../fonts/Lato-Regular.ttf);
+  font-family: Lato;
+}
+body {
+  font-family: "lato";
+}
+/* Navigation principale */
+nav {
+  background-color: #1a1a1d;
+  min-height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-logo {
+  margin-left: 2%;
+}
+.main-nav {
+  display: flex;
+  gap: 1rem;
+  margin-right: 2%;
+}
+
+.nav-btn {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  display: flex;
+  gap: 0.2rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+}
+
+/* Hero */
+.hero-img {
+  width: 100vw;
+}
+/* Section about*/
+.intro {
+  margin-top: 4.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 3rem;
+}
+h2 {
+  margin-bottom: 2rem;
+}
+
+.logo-about {
+  padding: 4rem;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  line-height: 1.2rem;
+}
+/* Section 2 */
+.evolution {
+}
+/* Section 3 */
+
+/* Footer */

@@ -1,0 +1,27 @@
+.square {
+  background-color: blue;
+  width: 33vw;
+  height: 33vh;
+  border: 5px solid green;
+  border-radius: 50%;
+}
+
+@media (max-width: 1024px) {
+  .square {
+    background-color: red;
+    width: 66vw;
+    height: 66vh;
+    border: 5px solid yellow;
+    border-radius: 15px;
+  }
+}
+
+@media (max-width: 600px) {
+  .square {
+    background-color: orange;
+    width: 100vw;
+    height: 100vh;
+    border: 5px solid black;
+    border-radius: 5px;
+  }
+}
