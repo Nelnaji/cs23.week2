@@ -8,9 +8,19 @@
   src: url(../fonts/Lato-Regular.ttf);
   font-family: Lato;
 }
+
 body {
   font-family: "lato";
 }
+
+.wrapper {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 30px;
+  display: flex;
+  flex-direction: column;
+  margin-right: 20%;
+  margin-left: 20%;
+}
+
 /* Navigation principale */
 nav {
   background-color: #1a1a1d;
@@ -19,9 +29,11 @@ nav {
   justify-content: space-between;
   align-items: center;
 }
+
 .nav-logo {
   margin-left: 2%;
 }
+
 .main-nav {
   display: flex;
   gap: 1rem;
@@ -42,8 +54,9 @@ nav {
 
 /* Hero */
 .hero-img {
-  width: 100vw;
+  width: 100%;
 }
+
 /* Section about*/
 .intro {
   margin-top: 4.8rem;
@@ -51,7 +64,9 @@ nav {
   align-items: center;
   justify-content: space-between;
   gap: 3rem;
+  margin-bottom: 4.8rem;
 }
+
 h2 {
   margin-bottom: 2rem;
 }
@@ -66,9 +81,115 @@ h2 {
   gap: 1rem;
   line-height: 1.2rem;
 }
-/* Section 2 */
-.evolution {
+
+/* Section Evolution */
+.evo-title {
+  font-size: 3rem;
+  color: #fff;
 }
+
+.evo-subtitle {
+  font-size: 1.6rem;
+  color: #fff;
+}
+
+.evolution {
+  display: flex;
+  flex-direction: column;
+  background-color: #334d5c;
+  gap: 4.8rem;
+  padding-bottom: 4.8rem;
+}
+
+.evolution a {
+  text-decoration: none;
+  color: #334d5c;
+  background-color: #fff;
+  padding: 1rem 2rem;
+}
+
+.first-evolution {
+  margin-top: 4.8rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 4.8rem;
+}
+
+.second-evolution {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 3rem;
+
+}
+
+.evo {
+  gap: 2rem;
+  max-width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.evo h3 {
+  color: #fff;
+  font-size: 2rem;
+}
+
+.evo p {
+  color: #fff;
+}
+
 /* Section 3 */
+
+.outils {
+  display: flex;
+  flex-direction: column;
+  gap: 4.8rem;
+  padding-bottom: 4.8rem;
+}
+
+.outils-title {
+  font-size: 3rem;
+  color: #1a1a1d;
+}
+
+.first-outils {
+  margin-top: 4.8rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 4.8rem;
+}
+
+.second-outils {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 3rem;
+
+}
+
+.outil {
+  gap: 2rem;
+  max-width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+
+.outil h3 {
+  color: #1a1a1d;
+  font-size: 2rem;
+}
+
+.outil a {
+  text-decoration: none;
+  color: #fff;
+  background-color: #1a1a1d;
+  padding: 1rem 2rem;
+}
 
 /* Footer */
