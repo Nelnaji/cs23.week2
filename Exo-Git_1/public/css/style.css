@@ -4,6 +4,8 @@
   box-sizing: border-box;
 }
 
+
+
 @font-face {
   src: url(../fonts/Lato-Regular.ttf);
   font-family: Lato;
@@ -153,8 +155,9 @@ h2 {
 }
 
 .outils-title {
-  font-size: 3rem;
+  font-size: 2rem;
   color: #393a3b;
+  padding-right: 1rem;
 }
 
 .first-outils {
@@ -188,7 +191,7 @@ h2 {
 
 .outil h3 {
   color: #393a3b;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 .outil a {
@@ -218,11 +221,11 @@ footer section {
 
 .img-wrap {
   display: flex;
-  gap: 3rem;
+  gap: 1rem;
 }
 
 .footer-nav img {
-  width: 5rem;
+  width: 4rem;
 
 }
 
@@ -231,7 +234,6 @@ footer section {
 }
 
 .footer-nav p {
-  display: flex;
-  justify-self: flex-start;
   color: #fff;
+  margin-right: 2%;
 }
